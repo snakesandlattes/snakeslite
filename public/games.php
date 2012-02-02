@@ -10,8 +10,8 @@ case 'snakeslite':
     $db = mysql_selectdb('snakeslite');
 break;
 case 'snakesandlattes.com':
-    $connecton = mysql_connect('localhost', 'snakesan_games', 'Telephone2');
-    $db = mysql_selectdb('snakesan_games');
+    $connecton = mysql_connect('127.0.0.1', 'snakeslite', 'yaPGs6eFfmkJRXhP');
+    $db = mysql_selectdb('snakeslite');
     break;
 
 }
