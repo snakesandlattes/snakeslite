@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^games\.snakesandlattes\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.games\.snakesandlattes\.com$
+RewriteRule ^/?$ "http\:\/\/gamebag\.myshopify\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^games\.chutesandlattescafe\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.games\.chutesandlattescafe\.com$
+RewriteRule ^/?$ "http\:\/\/gamebag\.myshopify\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^games\.snakesandlattes\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.games\.snakesandlattes\.ca$
+RewriteRule ^/?$ "http\:\/\/gamebag\.myshopify\.com" [R=301,L]
+
